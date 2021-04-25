@@ -294,7 +294,7 @@ h1{
   }
 }
 
-/*Rocket hopefully/*
+/*Rocket hopefully*/
 * {
   margin: 0;
   padding: 0;
@@ -306,9 +306,8 @@ body {
   overflow: hidden;
   background: #3498db;
   background: linear-gradient(to top, #2ecc71, #3498db, #2c3e50);
-/*   background-attachment: fixed; 
+/*   background-attachment: fixed; */
 }
-*/
 
 .title {
   font: 50px Arial;
