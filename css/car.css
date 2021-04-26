@@ -1,4 +1,5 @@
 /*Rocket hopefully*/
+/*
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +11,8 @@
     overflow: hidden;
     background: #3498db;
     background: linear-gradient(to top, #2ecc71, #3498db, #2c3e50);
-  /*   background-attachment: fixed; */
   }
+  */
   
   .title {
     font: 50px Arial;
@@ -51,26 +52,6 @@
     filter: brightness(80%);
     z-index: 100;
   /*   animation: fire 20s infinite; */
-  }
-  
-  footer {
-    text-align: center;
-    font: 16px Arial;
-    color: #f5f5f5;
-    position: absolute;
-    width: 100%;
-    bottom: 20px;
-  /*   z-index: -1; */
-    transition: opacity 2s ease;
-    opacity: 0;
-  }
-  footer a {
-    color: #333;
-    text-decoration: none;
-  }
-  footer a:hover {
-    color: #f5f5f5;
-    text-decoration: underline;
   }
   
   @keyframes fire {
