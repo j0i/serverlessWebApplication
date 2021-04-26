@@ -46,7 +46,6 @@
   .rocket {
     width: 200px;
     transform: rotate(-45deg);
-    position: static;
     bottom: -20px;
     left: calc(50% - 100px);
     filter: brightness(80%);
