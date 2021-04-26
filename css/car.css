@@ -46,12 +46,12 @@
   .rocket {
     width: 200px;
     transform: rotate(-45deg);
-    position: relative;
+    position: fixed;
     bottom: -20px;
     left: calc(50% - 100px);
     filter: brightness(80%);
     z-index: 100;
-    /*animation: fire 20s infinite;*/
+    animation: fire 20s infinite;
   }
   
   @keyframes fire {
